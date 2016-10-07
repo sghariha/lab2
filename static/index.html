@@ -1,26 +1,40 @@
 <!doctype html>
+<html lang="en">
+	<head>
+  		<title>HCI Project Portfolio</title>
+  		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link href="css/introHCI.css" rel="stylesheet"/>
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
 
-<html>
-<head>
-	<title>HCI Project Portfolio</title>	
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- this is a comment in HTML -->
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->        
-</head>
-
-<body>
-	<div>
-		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
-		<!-- p means paragraph -->
-		<div>
-			<h1>Michael Bernstein</h1>
+	<body class="background">	
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+ 	 		<div class="container-fluid">
+    			<div class="navbar-header">
+      				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+      				</button>
+      				<a class="navbar-brand" href="#">My Portfolio</a>
+    			</div>
+    			<div class="collapse navbar-collapse" id="myNavbar">
+      				<ul class="nav navbar-nav">
+        				<li class="active"><a href="#">Home</a></li>
+       	 				<li class="dropdown">
+        				<li><a href="project1.html">Project 1</a></li>
+        				<li><a href="project2.html">Project 2</a></li>
+        				<li><a href="project3.html">Project 3</a></li>
+        				<li><a href="project4.html">Project 4</a></li>
+      				</ul>
+    			</div>
+  			</div>
+		</nav>
+		<div class="container-fluid">
+			<h1>Shreeman Hariharan</h1>
 			<p>human-computer interaction &middot; social computing &middot; crowdsourcing</p>
 		</div>
 
@@ -35,7 +49,7 @@
 				<p>Waiting in Line</p>
 			</a>
 		</div>
-		<div id="project2">
+		<div id="project2" class="container-fluid">
 			<a href="project.html">
 				<img src="images/lorempixel.city.1.jpeg" alt="Lorem Pixel image">
 				<p>Needfinding</p>
